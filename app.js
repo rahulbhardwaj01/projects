@@ -1,5 +1,3 @@
-//*jshint esversion: 6 */
-
 // ----------required packages---------//
 const express = require("express");
 const request = require("request");
@@ -26,7 +24,7 @@ app.post("/", function(req,res){
   const lastName = req.body.lName;
   const email = req.body.email;
   const data = {
-    //the members, status,merge_fields ---comes from mailChimp api
+    //the members, status,merge_fields ---comes from mailChimp api ,:;
     'members':[
       {
         email_address:email,
